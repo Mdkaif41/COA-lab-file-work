@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std; 
+ int main() { 
+     // Write C++ code here 
+     int a[20]={0,0,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,1,1,0}; 
+  int sum =0; 
+     for(int i=0;i<=19;i++) 
+     { 
+         sum= sum+a[i]; 
+     } 
+     cout <<"sum is "<<sum<<endl; 
+  
+     return 0; 
+ }
